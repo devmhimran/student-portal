@@ -1,3 +1,18 @@
-async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/test");
+import mongoose from "mongoose";
+import app from "./app";
+import config from "./config";
+
+async function bootstrap() {
+  try {
+    await mongoose.connect(config.database_url as string);
+    app.listen(config.port, () => {
+      console.log(`Example app listening on port ${config.port}`);
+    });
+
+    console.log(`Database connect successfully`);
+  } catch (err) {
+    console.log(`Database connect Failed`, err);
+  }
 }
+
+bootstrap();
