@@ -4,7 +4,6 @@ import config from '../../../config/index'
 import { generateUserId } from './users.utils'
 
 export const createUserService = async (user: IUser): Promise<IUser | null> => {
-  console.log(user, 'user')
   const id = await generateUserId()
 
   user.id = id
