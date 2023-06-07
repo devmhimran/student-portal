@@ -4,7 +4,6 @@ import { createUserService } from './users.service'
 export const createUserController = async (req: Request, res: Response) => {
   try {
     const { user } = req.body
-    console.log(user)
     const result = await createUserService(user)
 
     res.status(200).json({
