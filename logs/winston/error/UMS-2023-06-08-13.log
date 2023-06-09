@@ -1,0 +1,39 @@
+{
+  ok: 0,
+  code: 8000,
+  codeName: 'AtlasError',
+  connectionGeneration: 0,
+  level: 'error',
+  message: 'Database connect Failed bad auth : authentication failed',
+  stack: 'MongoServerError: bad auth : authentication failed\n' +
+    '    at Connection.onMessage (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongodb\\src\\cmap\\connection.ts:413:18)\n' +
+    '    at MessageStream.<anonymous> (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  label: 'UMS',
+  timestamp: '2023-06-08T07:34:27.026Z',
+  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+}
+{
+  level: 'error',
+  message: 'Database connect Failed The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at H:\\All project\\Programming Hero\\Next-Level-Practise-1\\src\\server.ts:8:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at H:\\All project\\Programming Hero\\Next-Level-Practise-1\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\src\\server.ts:4:12)\n' +
+    '    at bootstrap (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\src\\server.ts:20:12)\n' +
+    '    at Object.<anonymous> (H:\\All project\\Programming Hero\\Next-Level-Practise-1\\src\\server.ts:19:1)',
+  label: 'UMS',
+  timestamp: '2023-06-08T07:35:29.063Z'
+}
