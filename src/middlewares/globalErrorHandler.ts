@@ -10,14 +10,11 @@ const globalErrorHandler: ErrorRequestHandler = (
   res: Response,
   next: NextFunction
 ) => {
-  // console.log(err)
-  //   res.status(400).json({ err: err })
-
   let statusCode = 500
   let message = 'something went wrong'
   let errorMessages: IGenericErrorMessage[] = []
 
-  if (error?.name === 'validationError') {
+  if (error?.name === 'ValidationError') {
     const simplifiedError = handleValidationError(error)
     statusCode = simplifiedError.statusCode
     message = simplifiedError.message
@@ -31,12 +28,7 @@ const globalErrorHandler: ErrorRequestHandler = (
   } else if (error instanceof Error) {
     message = error?.message
     errorMessages = error?.message
-      ? [
-          {
-            path: '',
-            message: error?.message,
-          },
-        ]
+      ? [{ path: '', message: error?.message }]
       : []
   }
 

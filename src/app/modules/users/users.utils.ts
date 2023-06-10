@@ -1,4 +1,4 @@
-import { User } from './users.mode'
+import { User } from './users.model'
 
 // let lastUserId = 0
 
