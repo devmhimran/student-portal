@@ -1,0 +1,114 @@
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:09:28.975Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:15:19.724Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:15:19.732Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:16:29.078Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:17:27.948Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:17:27.954Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:20:08.370Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:20:37.656Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:20:37.662Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:21:39.826Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:21:39.833Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:22:13.287Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:22:13.297Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:24:53.766Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:25:23.243Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:25:23.250Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:27:25.042Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:30:53.155Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-11T20:30:53.164Z'
+}

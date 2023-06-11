@@ -24,6 +24,16 @@
             "date": 1686470733816,
             "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/error/UMS-2023-06-11-14.log",
             "hash": "26f9dd63a6cec4aece81c82cdb523d0d55b7d5743db6e9934450c51fd2ea5740"
+        },
+        {
+            "date": 1686511320131,
+            "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/error/UMS-2023-06-12-01.log",
+            "hash": "5cc372e404ac2f982bbe7307a5b0e6d1e65605dcb4972a4602ed0a8285543a6d"
+        },
+        {
+            "date": 1686514516164,
+            "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/error/UMS-2023-06-12-02.log",
+            "hash": "6e451902dab5b5673fc72b3e6837afbfb830a5f12158f9afb1457bb088593cfe"
         }
     ],
     "hashType": "sha256"
