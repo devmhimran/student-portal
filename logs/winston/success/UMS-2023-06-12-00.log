@@ -2,23 +2,23 @@
   message: 'Database connect successfully',
   level: 'info',
   label: 'UMS',
-  timestamp: '2023-06-03T06:47:15.553Z'
+  timestamp: '2023-06-11T18:04:58.517Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'UMS',
-  timestamp: '2023-06-03T06:47:15.562Z'
+  timestamp: '2023-06-11T18:04:58.532Z'
 }
 {
   message: 'Database connect successfully',
   level: 'info',
   label: 'UMS',
-  timestamp: '2023-06-03T06:48:10.144Z'
+  timestamp: '2023-06-11T18:12:36.688Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'UMS',
-  timestamp: '2023-06-03T06:48:10.156Z'
+  timestamp: '2023-06-11T18:12:36.702Z'
 }

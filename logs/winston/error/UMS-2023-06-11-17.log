@@ -1,0 +1,22 @@
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T11:14:56.488Z'
+}
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T11:15:56.208Z'
+}
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T11:25:01.274Z'
+}
+Sun Jun 11 2023 17:32:08 GMT+0600 (Bangladesh Standard Time) 17: 32, 8 [UMS] error: unhandled server rejected !!!
+{ level: 'error', label: 'UMS', timestamp: '2023-06-11T11:35:41.188Z' }
+{ level: 'error', label: 'UMS', timestamp: '2023-06-11T11:36:37.182Z' }
+Sun Jun 11 2023 17:36:57 GMT+0600 (Bangladesh Standard Time) 17: 36, 57 [UMS] error: Testing Error logger

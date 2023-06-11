@@ -46,8 +46,8 @@ export const errorLogger = winston.createLogger({
   format: combine(
     label({ label: 'UMS' }),
     timestamp(),
-    myFormat,
-    prettyPrint()
+    myFormat
+    // prettyPrint()
   ),
   transports: [
     new transports.Console(),
