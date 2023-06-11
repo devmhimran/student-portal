@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/success/.19b52d2b69d6dfa6bfa8de682ab3d5624661116c-audit.json",
+    "files": [
+        {
+            "date": 1686425294127,
+            "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/success/UMS-2023-06-11-01.log",
+            "hash": "832c1f5d53def083c04dbd8d371d7eeab1699e6fdc4345be9171c001881bced4"
+        },
+        {
+            "date": 1686434187603,
+            "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/success/UMS-2023-06-11-03.log",
+            "hash": "3971514abc9628fac1d2e9c3e689fd4787c2622c10a82724883fe749a461dafd"
+        },
+        {
+            "date": 1686434425840,
+            "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/success/UMS-2023-06-11-04.log",
+            "hash": "0b9af448da5b8fadd9b4576ac90ee0c542cb8cd154c5b8583fa1e5589677b00f"
+        },
+        {
+            "date": 1686470733812,
+            "name": "/home/imran/Documents/project-setup-practise/university/student-portal/logs/winston/success/UMS-2023-06-11-14.log",
+            "hash": "b5384b0fadb79614920c8a954ec0e32fdbb6ec1853de76c13f8e26ec24d5ae4c"
+        }
+    ],
+    "hashType": "sha256"
+}

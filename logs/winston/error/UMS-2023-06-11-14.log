@@ -1,0 +1,24 @@
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T08:17:38.043Z'
+}
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T08:19:17.952Z'
+}
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T08:20:11.404Z'
+}
+{
+  message: 'unhandled server rejected !!!',
+  level: 'error',
+  label: 'UMS',
+  timestamp: '2023-06-11T08:32:02.119Z'
+}

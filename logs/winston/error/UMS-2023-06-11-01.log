@@ -1,0 +1,34 @@
+{
+  level: 'error',
+  message: 'Database connect Failed The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (/home/imran/Documents/project-setup-practise/university/student-portal/node_modules/mongoose/lib/connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (/home/imran/Documents/project-setup-practise/university/student-portal/node_modules/mongoose/lib/connection.js:742:29)\n' +
+    '    at Mongoose.connect (/home/imran/Documents/project-setup-practise/university/student-portal/node_modules/mongoose/lib/index.js:406:15)\n' +
+    '    at /home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:8:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:4:12)\n' +
+    '    at bootstrap (/home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:20:12)\n' +
+    '    at Object.<anonymous> (/home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:19:1)',
+  label: 'UMS',
+  timestamp: '2023-06-10T19:28:14.165Z'
+}
+{
+  level: 'error',
+  message: 'Database connect Failed The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (/home/imran/Documents/project-setup-practise/university/student-portal/node_modules/mongoose/lib/connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (/home/imran/Documents/project-setup-practise/university/student-portal/node_modules/mongoose/lib/connection.js:742:29)\n' +
+    '    at Mongoose.connect (/home/imran/Documents/project-setup-practise/university/student-portal/node_modules/mongoose/lib/index.js:406:15)\n' +
+    '    at /home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:8:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:4:12)\n' +
+    '    at bootstrap (/home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:20:12)\n' +
+    '    at Object.<anonymous> (/home/imran/Documents/project-setup-practise/university/student-portal/src/server.ts:19:1)',
+  label: 'UMS',
+  timestamp: '2023-06-10T19:29:01.093Z'
+}
