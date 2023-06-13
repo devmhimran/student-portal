@@ -36,7 +36,7 @@ export const logger = createLogger({
       datePattern: 'YYYY-MM-DD-HH',
       zippedArchive: true,
       maxSize: '20m',
-      maxFiles: '14d',
+      maxFiles: '1d',
     }),
   ],
 })
@@ -65,7 +65,7 @@ export const errorLogger = winston.createLogger({
       datePattern: 'YYYY-MM-DD-HH',
       zippedArchive: true,
       maxSize: '20m',
-      maxFiles: '14d',
+      maxFiles: '1d',
     }),
   ],
 })
