@@ -8,6 +8,7 @@ import express, {
 import cors from 'cors'
 import globalErrorHandler from './middlewares/globalErrorHandler'
 import router from './app/routes'
+import httpStatus from 'http-status'
 
 const app: Application = express()
 // const port = 3000
@@ -27,5 +28,18 @@ app.get('/', async (req: Request, res: Response, next: NextFunction) => {
 })
 
 app.use(globalErrorHandler)
+
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Not Found',
+    errorMessage: [
+      {
+        path: '.',
+        message: 'API not found',
+      },
+    ],
+  })
+})
 
 export default app
