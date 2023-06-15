@@ -6,9 +6,14 @@
     "auditLog": "H:\\All project\\Programming Hero\\Next-Level-Practise-1\\logs\\winston\\error\\.1bb68a420211bd75c3c198d7e18369f310e033ed-audit.json",
     "files": [
         {
-            "date": 1686614731059,
-            "name": "H:\\All project\\Programming Hero\\Next-Level-Practise-1\\logs\\winston\\error\\UMS-2023-06-13-06.log",
-            "hash": "64e5c9b07cabe734e09cf9f416943d95f532680877a6f2167d143639c29401f5"
+            "date": 1686756230787,
+            "name": "H:\\All project\\Programming Hero\\Next-Level-Practise-1\\logs\\winston\\error\\UMS-2023-06-14-21.log",
+            "hash": "5cfe5233c5ea0e4639e6ea141b0c223ceb75faafdb619c0cc6da4f8f82dec19b"
+        },
+        {
+            "date": 1686833211142,
+            "name": "H:\\All project\\Programming Hero\\Next-Level-Practise-1\\logs\\winston\\error\\UMS-2023-06-15-18.log",
+            "hash": "4a2b29e8fe777099b7d11995123aab5ede8996cbd9025df22f4bdc65ac9d0615"
         }
     ],
     "hashType": "sha256"
