@@ -34,3 +34,27 @@
   label: 'UMS',
   timestamp: '2023-06-15T12:51:18.029Z'
 }
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-15T12:52:12.414Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-15T12:52:12.440Z'
+}
+{
+  message: 'Database connect successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-15T12:53:06.341Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-06-15T12:53:06.362Z'
+}
