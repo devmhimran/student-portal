@@ -24,11 +24,22 @@ app.use('/api/v1/', router)
 
 // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-  throw new Error('Testing Error logger')
+  // throw new Error('Testing Error logger')//////
+  res.status(httpStatus.OK).json({
+    success: true,
+    message: 'Server Working well !!!',
+    errorMessage: [
+      {
+        path: req.originalUrl,
+        // message: 'API not found',
+      },
+    ],
+  })
 })
 
 app.use(globalErrorHandler)
 
+// eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(httpStatus.NOT_FOUND).json({
     success: false,

@@ -3,6 +3,7 @@ import ApiError from '../../../errors/ApiErrors'
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant'
 import { IAcademicSemester } from './academicSemester.interface'
 import { AcademicSemester } from './academicSemester.model'
+import { IPaginations } from '../../../interfaces/paginations'
 
 const createSemester = async (
   payload: IAcademicSemester
@@ -14,6 +15,11 @@ const createSemester = async (
   return result
 }
 
+const getAllSemesters = (paginationOptions: IPaginations) => {
+  return paginationOptions
+}
+
 export const AcademicSemesterService = {
   createSemester,
+  getAllSemesters,
 }
