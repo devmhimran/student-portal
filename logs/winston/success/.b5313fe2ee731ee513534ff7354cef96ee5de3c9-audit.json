@@ -6,19 +6,24 @@
     "auditLog": "E:\\typescript\\student-portal\\logs\\winston\\success\\.b5313fe2ee731ee513534ff7354cef96ee5de3c9-audit.json",
     "files": [
         {
-            "date": 1686944224529,
-            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-16-12.log",
-            "hash": "286ebb1c3b2f39be60558997b61d5b02cdcfd7e6513a8f5468558e864ba5d9c2"
+            "date": 1687005029295,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-17-18.log",
+            "hash": "f6448dade8921f08df318691a6c97097fb9fd2055100abab8db1f9fb82e2fc9f"
         },
         {
-            "date": 1686950436357,
-            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-16-14.log",
-            "hash": "b5cf80a9d66a2a6ad4921f2986b689be3e0366d34eada676b04121526a347ef1"
+            "date": 1687032000935,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-18-02.log",
+            "hash": "cc66226dc96fe2891555de45bdb3f408e119bb1ac9b3cb5a5268115ee96005cd"
         },
         {
-            "date": 1686954768181,
-            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-17-04.log",
-            "hash": "07255dccb2d1ca77eba147e0e4564fbf0116164204e4c8bcde961980f95c064e"
+            "date": 1687035657848,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-18-03.log",
+            "hash": "80ac3dab7ef35e3e308ef90c00e35c9950e6cdc8f58a884350ed683818f08f93"
+        },
+        {
+            "date": 1687042922277,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\success\\UMS-2023-06-18-05.log",
+            "hash": "d736cd7c9cc66225a9cbd3dd6b571e34e321f993f47570cab8947620f335e244"
         }
     ],
     "hashType": "sha256"

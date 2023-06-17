@@ -18,15 +18,10 @@ const createSemesterController = catchAsync(
       statusCode: httpStatus.OK,
       success: true,
       message: 'Successfully Academic Semester create',
+      // mete: {},
       data: result,
     })
     next()
-
-    // res.status(200).json({
-    //   success: true,
-    //   message: 'Successfully Academic Semester create',
-    //   data: result,
-    // })
   }
 )
 
@@ -38,13 +33,13 @@ const getAllSemesters = catchAsync(
 
     console.log(result)
 
-    // sendResponse<IAcademicSemester>(res, {
-    //   statusCode: httpStatus.OK,
-    //   success: true,
-    //   message: '',
-    //   data: result,
-    // })
-    // next()
+    sendResponse<IAcademicSemester[]>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Data Successfully Retrieve',
+      meta: result.meta,
+      data: result.data,
+    })
   }
 )
 
