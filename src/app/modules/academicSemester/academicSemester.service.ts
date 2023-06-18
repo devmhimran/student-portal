@@ -2,7 +2,10 @@ import { SortOrder } from 'mongoose'
 import httpStatus from 'http-status'
 import ApiError from '../../../errors/ApiErrors'
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant'
-import { IAcademicSemester } from './academicSemester.interface'
+import {
+  IAcademicSemester,
+  IAcademicSemesterFilters,
+} from './academicSemester.interface'
 import { AcademicSemester } from './academicSemester.model'
 import { IPaginations } from '../../../interfaces/paginations'
 import { paginationHelpers } from '../../helpers/paginations'
@@ -27,8 +30,56 @@ type IGenericResponse<T> = {
 }
 
 const getAllSemesters = async (
+  filters: IAcademicSemesterFilters,
   paginationOptions: IPaginations
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
+  const { searchTerm } = filters
+
+  const academicSemesterSearchableFields = ['title', 'code', 'year']
+  const andConditions = []
+
+  console.log(searchTerm)
+
+  if (searchTerm) {
+    andConditions.push({
+      $or: academicSemesterSearchableFields.map(field => {
+        return {
+          [field]: {
+            title: {
+              $regex: searchTerm,
+              $options: 'i',
+            },
+          },
+        }
+      }),
+    })
+  }
+
+  // const andCondition = [
+  //   {
+  //     $or: [
+  //       {
+  //         title: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         code: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         year: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //     ],
+  //   },
+  // ]
+
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelpers.calculatePaginations(paginationOptions)
 
@@ -38,7 +89,7 @@ const getAllSemesters = async (
     sortCondition[sortBy] = sortOrder
   }
 
-  const result = await AcademicSemester.find()
+  const result = await AcademicSemester.find({ $and: andConditions })
     .sort(sortCondition)
     .skip(skip)
     .limit(limit)

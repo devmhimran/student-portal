@@ -29,7 +29,11 @@ const getAllSemesters = catchAsync(
   // eslint-disable-next-line no-unused-vars
   async (req: Request, res: Response, next: NextFunction) => {
     const paginations = pick(req.query, paginationsFields)
-    const result = await AcademicSemesterService.getAllSemesters(paginations)
+    const filters = pick(req.query, ['searchTerm'])
+    const result = await AcademicSemesterService.getAllSemesters(
+      filters,
+      paginations
+    )
 
     console.log(result)
 

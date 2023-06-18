@@ -26,3 +26,7 @@ export type IAcademicSemester = {
 }
 
 export type AcademicModel = Model<IAcademicSemester>
+
+export type IAcademicSemesterFilters = {
+  searchTerm: string
+}

@@ -6,11 +6,6 @@
     "auditLog": "E:\\typescript\\student-portal\\logs\\winston\\error\\.5670d9b2b393faf2135a505a34f68d6e89a32f62-audit.json",
     "files": [
         {
-            "date": 1687005029309,
-            "name": "E:\\typescript\\student-portal\\logs\\winston\\error\\UMS-2023-06-17-18.log",
-            "hash": "5b1ef64be753196acf1ebca69ec88cc8ff4d23c737c1a2cf28a8e775387c7a12"
-        },
-        {
             "date": 1687032000945,
             "name": "E:\\typescript\\student-portal\\logs\\winston\\error\\UMS-2023-06-18-02.log",
             "hash": "cfa6cc41a75a0476c2b3eeb61262cee91086b63e11dbdf73789dc007594d2144"
@@ -24,6 +19,21 @@
             "date": 1687042922283,
             "name": "E:\\typescript\\student-portal\\logs\\winston\\error\\UMS-2023-06-18-05.log",
             "hash": "741c5e6ac3f772a73f0e9389a3263b31685e625891fd80438a8fbc40618672aa"
+        },
+        {
+            "date": 1687085560108,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\error\\UMS-2023-06-18-16.log",
+            "hash": "7b5546283a3da2001bc760954a77cbd572b069f8e7cd398625dcda2cf380f34f"
+        },
+        {
+            "date": 1687093007766,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\error\\UMS-2023-06-18-18.log",
+            "hash": "bf70bbd430e2c11f71c128cf0f97b68123e26919e12763cb7b84f35d1082682a"
+        },
+        {
+            "date": 1687093703342,
+            "name": "E:\\typescript\\student-portal\\logs\\winston\\error\\UMS-2023-06-18-19.log",
+            "hash": "7d375a18997605da31cdbfc49e98af64b7ec80b258c81fa620b5b96bb0b18948"
         }
     ],
     "hashType": "sha256"
